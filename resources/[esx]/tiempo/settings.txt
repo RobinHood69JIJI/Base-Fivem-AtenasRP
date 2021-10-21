@@ -1,0 +1,1 @@
+{"hours":19,"instantweather":true,"weather":"BLIZZARD","freeze":false,"instanttime":true,"mins":45,"dynamic":true,"blackout":false}

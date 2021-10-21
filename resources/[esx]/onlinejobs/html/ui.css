@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+/** General Selectors*/
+body {
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif;
+}
+/** General Selectors*/
+
+/*? ID Selector */
+#JobsCounter
+{
+    position: absolute;
+    bottom: 3vh;
+    right: 0.7vh;
+}
+#playerscounter
+{
+    letter-spacing: 0px;
+}
+/*? ID Selectors */
+
+
+/*! Class Selectors */
+.textstat 
+{
+    width: 2vh;
+    float: right;
+    text-align: right;
+    font-size: 1.0vh;
+    margin-top: -0.25vh;
+}
+.JobCounter
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 0.35vh;
+    text-align: center;
+    margin-top: 0.3vh;
+    border-radius: 0.4vh;
+    font-size: 1.0vh;
+    letter-spacing: 5px;
+}
+/* .IdCounter {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 0.35vh;
+    text-align: center;
+    margin-top: 0.3vh;
+    border-radius: 0.4vh;
+    font-size: 1.0vh;
+    letter-spacing: 1px;
+} */
+.counter
+{
+    letter-spacing: 0px;
+}
+/*! Class Selectors */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+	font-family: 'Do Hyeon', sans-serif;
+}

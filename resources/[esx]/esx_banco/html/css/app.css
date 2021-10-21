@@ -1,0 +1,125 @@
+@font-face {
+	font-family: roboto;
+	src: url('../roboto.ttf');
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	font-family: roboto;
+}
+
+#cursor {
+	position: absolute;
+	z-index: 999999;
+	display: none;
+}
+
+#container {
+	position: absolute;
+	background: linear-gradient(#01fe9d, #14744f);
+	height: 500px;
+	width: 600px;
+	top: 50%;
+	left: 50%;
+	margin: -250px 0 0 -300px;
+	cursor: default;
+	border-radius: 0.5cm;
+}
+
+#header {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 75px;
+	background: linear-gradient(#ffffff, #ffffff);
+	border-radius: 0.5cm;
+}
+
+#logo {
+	height: 55px;
+	margin: 10px;
+}
+
+#welcome-text {
+	font-size: 25px;
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	width: 450px;
+	margin: 0 0 0 -225px;
+	color: white;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#menu {
+	position: relative;
+	top: 90%;
+}
+
+#menu {
+	display: flex;
+	flex-direction: column;
+	height: 150px;
+	margin: -150px auto 0;
+	width: 500px;
+}
+
+#menu div {
+	display: flex;
+	flex-direction: row;
+}
+
+input {
+	margin: 0 20px 0 0;
+	background: linear-gradient(#ffffff);
+	border-radius: 5px;
+	border: 1px solid #4f89d4;
+	color: 000000;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+button {
+	background: #ffffff;
+	border-radius: 5px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+#deposit_btn {
+	width: 250px;
+	height: 50px;
+	font-size: 2em;
+	border-radius: 0.5cm;
+}
+
+#deposit_amount {
+	width: 250px;
+	height: 50px;
+	font-size: 2em;
+}
+
+#withdraw_btn {
+	width: 250px;
+	height: 50px;
+	font-size: 2em;
+	border-radius: 0.5cm;
+}
+
+#withdraw_amount {
+	width: 250px;
+	height: 50px;
+	font-size: 2em;
+}
+
+#textobanco {
+	font-size: 50px;
+	position: center;
+}

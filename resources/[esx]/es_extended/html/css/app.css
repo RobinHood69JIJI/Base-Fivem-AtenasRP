@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@font-face {
+	font-family: 'Oswald';
+	src: url('../fonts/Oswald.ttf')
+}
+
+html, body {
+	overflow: hidden;
+	background-color: transparent;
+}
+
+#hud {
+	position: absolute;
+	
+	/*font-size: 22px;*/
+	/*color: white;*/
+	padding: 4px;
+	/*text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
+	text-align: right;
+	top: 50;
+	right: 40;
+	font-family: 'Oswald';
+    font-size: 18px;
+    color: #FFF;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.75);
+}
+
+#inventory_notifications {
+	position: absolute;
+	right: 40;
+	bottom: 40;
+	font-family: 'Oswald';
+	font-size: 2em;
+	font-weight: bold;
+	color: #FFF;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.menu {
+	min-width: 400px;
+	min-height: 250px;
+	color: #fff;
+	position: absolute;
+	left: 40;
+	top: 0;
+}
+
+.menu .head {
+	font-family: 'Oswald';
+	font-size: 28px;
+	padding: 10px;
+	background: #1A1A1A;
+	border-bottom: 3px solid #BC1635;
+	border-radius: 10px 10px 0 0;
+	-webkit-border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	-o-border-radius: 10px 10px 0 0;
+	box-shadow: inset 0px 1px 0 rgba(255, 255, 255, 0.28);
+	-webkit-box-shadow: inset 0px 1px 0 rgba(255, 255, 255, 0.28);
+	-moz-box-shadow: inset 0px 1px 0 rgba(255, 255, 255, 0.28);
+	-o-box-shadow: inset 0px 1px 0 rgba(255, 255, 255, 0.28);
+	box-shadow: 1px 1px 10px 4px rgba(0, 0, 0, 0.4);
+}
+
+.menu .head span {
+	font-family: 'Oswald';
+	font-size: 28px;
+	padding-left: 15px;
+	padding-top: 6px;
+}
+
+.menu .menu-items .menu-item {
+	font-family: 'Oswald';
+	font-size: 14px;
+	height: 40px;
+	display: block;
+	background-color: #f1f1f1;
+	box-shadow: inset 1px 0px 0px 1px #b8b8b8;
+	height: 32px;
+	line-height: 32px;
+	color: #3A3A3A;
+	text-align: center;
+}
+
+.menu .menu-items .menu-item.selected {
+	background-color: #ccc;
+}
+
+#plate {
+	display: block;
+    width: 500px;
+	position: absolute;
+    top: 26px;
+    right: -16px;
+	text-align: right;
+}
+
+#online_players {
+	display: block;
+    width: 500px;
+	position: absolute;
+    top: 162px;
+    right: -16px;
+	text-align: right;
+}

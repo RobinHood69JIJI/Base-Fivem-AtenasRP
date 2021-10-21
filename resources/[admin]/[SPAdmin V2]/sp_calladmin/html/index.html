@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="reset.css" type="text/css">
+        <link rel="stylesheet" href="index.css" type="text/css">
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+	</head>
+	<body>
+
+		<div id="container">
+			<div id="startscreen">
+				<img class="logo" alt="report" src="https://static.wikia.nocookie.net/among-us-wiki/images/9/94/Report.png/revision/latest?cb=20201016191700">
+				<h1 style="margin-left: 160px; margin-top: 50px; font-size: 45px; font-family: 'Secular One', sans-serif;
+			    	margin: 0;
+    				position: absolute;
+    				top: 50%;
+    				left: 50%;
+    				-ms-transform: translate(-50%, -50%);
+					transform: translate(-50%, -50%);"> On Discord </h1>
+				<button class="button" id="start">Start</button>
+			</div>
+
+
+			<!-- Form -->
+
+
+
+			<div id="info">
+				
+				<label class="label">First Name</label>
+				<input id="firstname" type="text" placeholder="Type Here" class="input"  required="true" name="need" ><br>
+				<label class="label1">Last Name</label>
+				<input id="lastname" type="text" placeholder="Type Here" class="input"  required="true" name="need" ><br>
+				<label class="label2">Hours</label>
+				<input id="age" type="text" placeholder="Type Here" class="input"  required="true" name="need" ><br>
+				<label class="label3">Information</label>
+				<input id="why"type="text" type="textarea" placeholder="Type Here" class="why"  required="true"  name="need"><br>
+				<label class="label4">Types:</label>
+
+				<select  class="gender" id="gender" required="true">
+					<option value="Cheats">Cheats</option>
+					<option value="NoRP">NoRP</option>
+					<option value="Troll">Troll</option>
+					<option value="CarKill">CarKill</option>
+					<option value="FreeKill">FreeKill</option>
+					<option value="FreePunch">FreePunch</option>
+					<option value="SpamMicro">SpamMicro</option>
+					<option value="NoFear">NoFear</option>
+				</select>
+
+
+				<strong class="warn"  id="warn">Please Fill All The Values!</strong>
+				<button class="sumbit" id="sumbit">Sumbit</button>
+			</div>
+
+			<!-- Done -->
+
+			<div id="done">
+				<strong class="thanks">Thanks</strong>
+				<button class="exit" id="exit">Exit</button>
+			</div>
+
+
+		</div>
+        <script src="./index.js" type="text/javascript"></script>
+	</body>
+</html>
